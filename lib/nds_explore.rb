@@ -16,4 +16,4 @@ def print_first_directors_movie_titles
   titles
 end
 
-pp directors_database
+pp print_first_directors_movie_titles
