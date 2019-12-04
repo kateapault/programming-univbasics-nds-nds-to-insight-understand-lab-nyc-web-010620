@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   nds = directors_database
   titles = ""
   for each in nds[0][:movies] do
-    titles += (each[:title] + "\n")  
+    titles = titles + (each[:title] + "\n")  
   end
   titles
 end
