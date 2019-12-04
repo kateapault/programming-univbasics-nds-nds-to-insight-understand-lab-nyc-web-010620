@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   for each in nds[0][:movies] do
     titles = titles + (each[:title] + "\n")  
   end
-  titles
+  print titles
 end
 
 p print_first_directors_movie_titles
