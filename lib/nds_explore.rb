@@ -16,4 +16,4 @@ def print_first_directors_movie_titles
   titles
 end
 
-pp print_first_directors_movie_titles
+puts print_first_directors_movie_titles
